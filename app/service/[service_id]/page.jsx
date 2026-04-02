@@ -25,7 +25,7 @@ export default function ServiceDetailPage({ params }) {
     <div className="bg-slate-50 min-h-screen">
       {/* Hero */}
       <div className="relative w-full h-72 md:h-96 overflow-hidden">
-        <Image src={service.image} alt={service.title} fill className="object-cover" priority />
+        <Image src={service.image} alt={service.title} fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/30 to-transparent"></div>
         <div className="absolute bottom-0 left-0 right-0 p-8 max-w-7xl mx-auto">
           <Link href="/" className="inline-flex items-center gap-1 text-white/70 hover:text-white text-sm mb-3 transition">

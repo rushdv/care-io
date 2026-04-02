@@ -65,6 +65,20 @@ npm run build
 npm start
 ```
 
+### Deploy to Vercel
+
+1. Install Vercel CLI:
+```bash
+npm i -g vercel
+```
+
+2. Deploy:
+```bash
+vercel --prod
+```
+
+Make sure to set the Firebase environment variables in Vercel dashboard.
+
 ## Project Structure
 
 ```
